@@ -1,0 +1,33 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "MERN Proyect to learn.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NehuenSola/MERN.git"
+  },
+  "author": "Nehuen Sola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NehuenSola/MERN/issues"
+  },
+  "homepage": "https://github.com/NehuenSola/MERN#readme",
+  "prettier": {
+    "tabWidth": 4,
+    "semi": false,
+    "singleQuote": true
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.7",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "nodemailer": "^6.7.8",
+    "xoauth2": "^1.2.0"
+  }
+}
